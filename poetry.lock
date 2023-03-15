@@ -179,14 +179,6 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
-name = "package"
-version = "0.1.1"
-description = "package is a package to package your package"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "packaging"
 version = "23.0"
 description = "Core utilities for Python packages"
@@ -428,7 +420,7 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "961a45f2a603cef2a1aa077495d7d2ed67aba29df3644c458489a15f70d4b7fb"
+content-hash = "e6662c348206316422b8c8b9e2a8b7eccd1b33fd8f42411ec2d1e3026aeb415a"
 
 [metadata.files]
 anyio = [
@@ -593,9 +585,6 @@ idna = [
 mypy-extensions = [
     {file = "mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d"},
     {file = "mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"},
-]
-package = [
-    {file = "package-0.1.1.tar.gz", hash = "sha256:01eee19a56a936bd63222f0a3c531fcdba37b5ad1bd833b960d62fb960b4955e"},
 ]
 packaging = [
     {file = "packaging-23.0-py3-none-any.whl", hash = "sha256:714ac14496c3e68c99c29b00845f7a2b85f3bb6f1078fd9f72fd20f0570002b2"},
