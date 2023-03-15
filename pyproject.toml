@@ -6,7 +6,7 @@ authors = ["동욱 <frlaehdd@naver.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10.9"
 Django = "~4.0"
 djangorestframework = "^3.13.1"
 strawberry-graphql = {extras = ["debug-server"], version = "^0.130.4"}
