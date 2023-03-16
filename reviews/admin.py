@@ -3,7 +3,6 @@ from .models import Review
 
 
 class WordFilter(admin.SimpleListFilter):
-
     title = "Filter by words!"
 
     parameter_name = "word"
@@ -25,7 +24,6 @@ class WordFilter(admin.SimpleListFilter):
 
 @admin.register(Review)
 class ReviewAdmin(admin.ModelAdmin):
-
     list_display = (
         "__str__",
         "payload",
