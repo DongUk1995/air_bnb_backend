@@ -177,11 +177,14 @@ REST_FRAMEWORK = {
         "config.authentication.JWTAuthentication",
     ],
 }
+if DEBUG:
+    CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:3000"]
 
-CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:3000"]
-CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:3000"]
+    CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:3000"]
 
-CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:3000"]
+else:
+    CORS_ALLOWED_ORIGINS = ["https://airbnb-frontend-hpoi.onrender.com"]
+    CSRF_TRUSTED_ORIGINS = ["https://airbnb-frontend-hpoi.onrender.com"]
 
 CORS_ALLOW_CREDENTIALS = True
 GH_SECRET = env("GH_SECRET")
